@@ -1,8 +1,10 @@
 {
-  "functions": {
-    "app/api/process-audio/route.ts": {
-      "runtime": "edge"
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
     }
-  }
+  ]
 }
 
