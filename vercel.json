@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "app/api/process-audio/route.ts": {
+      "runtime": "edge"
+    }
+  }
+}
+
